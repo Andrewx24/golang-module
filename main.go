@@ -3,6 +3,7 @@ package main
 
 import (
   "fmt"
+  "math/rand"
 )
 
 // Defining a struct for a person
@@ -32,4 +33,5 @@ func main() {
    fmt.Printf("Age: %d\n", person.Age)
    fmt.Printf("Occupation: %s\n", person.Occupation)
    fmt.Printf("Marriage Status: %t\n", person.MarriageStatus)
+   fmt.Println("Random number:", rand.Intn(100))
 }
